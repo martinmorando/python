@@ -24,7 +24,7 @@ print( len(alphabet) )
 # Select letters, slice strings
 print("1st letter:", alphabet[0])
 print("Last letter:", alphabet[-1])
-print("1st letter to last one:", alphabet[2:]) 
+print("3rd letter to last one:", alphabet[2:]) 
 
 
 
