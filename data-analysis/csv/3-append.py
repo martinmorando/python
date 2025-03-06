@@ -5,7 +5,7 @@ If the file exists, it appends data.
 
 import csv
 
-file_path = "3-append.csv"
+file_path = "data/write.csv"
 
 data = [range(10)] # Iterable
 

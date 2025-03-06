@@ -7,7 +7,6 @@ In this case, also using tkinter to display the graph in a window.
 # Import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib
-import random
 
 # Set the backend to TkAgg
 matplotlib.use("TkAgg") 

@@ -6,6 +6,9 @@
 3. On top of (1) and (2), very simple syntax
 
 ## Topics
-- CSV Handling
-- Matplotlib Library
+- Basics
+- Data Analysis
+	- CSV Handling
+	- Matplotlib Library
+	- Pandas Library
 - Web Scraping

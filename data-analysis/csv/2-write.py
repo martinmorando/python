@@ -5,7 +5,7 @@ If it exists, it will be overwritten.
 
 import csv
 
-file_path = "2-write.csv"
+file_path = "data/write.csv"
 
 data = [range(10)] # Iterable
 

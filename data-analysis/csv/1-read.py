@@ -5,7 +5,7 @@ If the file does not exist, it will throw out an error.
 
 import csv
 
-file_path = "1-peoples-list.csv"
+file_path = "data/guest-list.csv"
 
 # Read mode
 # Newline="" ensures new lines are interpreted correctly
