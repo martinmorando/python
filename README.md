@@ -6,9 +6,10 @@
 3. On top of (1) and (2), very simple syntax
 
 ## Topics
-- Basics
+- Core
 - Data Analysis
 	- CSV Handling
-	- Matplotlib Library
-	- Pandas Library
+	- Matplotlib
+	- Pandas
 - Web Scraping
+	- BeautifulSoup
