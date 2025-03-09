@@ -4,8 +4,10 @@ If it exists, it will be overwritten.
 '''
 
 import csv
+import os
 
-file_path = "data/write.csv"
+# So that this script can be run from any dir
+file_path = os.path.join(os.path.dirname(__file__), "../_data/write.csv")
 
 data = [range(10)] # Iterable
 

@@ -13,3 +13,14 @@
 	- Pandas
 - Web Scraping
 	- BeautifulSoup
+
+## How to install libraries (Linux)
+1. Create a virtual environment
+`python3 -m venv venv`
+2. Activate it
+`source venv/bin/activate`
+3. Install required libraries
+`pip install pandas matplotlib BeautifulSoup`
+
+## Run script
+`python3 path/to/file.py`
