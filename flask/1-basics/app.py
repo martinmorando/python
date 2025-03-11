@@ -2,7 +2,7 @@
 	Not ready for development
 
 	1. Install flask:  pip install flask
-	2. Run:            python3 app.py
+	2. Run:            python3 1-basics.py
 	3. Visit:          http://127.0.0.1:5000/
 '''
 from flask import Flask # Import flask

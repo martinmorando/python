@@ -1,0 +1,13 @@
+<!-- This is the base template used for other HTML files -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title will change based on page -->
+		<title>{{ page_title }}</title>
+	</head>
+	<body>
+		<!-- Content from child templates will be inserted here -->
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>
