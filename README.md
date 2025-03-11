@@ -13,6 +13,7 @@
 	- Pandas
 - Web Scraping
 	- BeautifulSoup
+- Flask
 
 ## How to install libraries (Linux)
 1. Create a virtual environment
