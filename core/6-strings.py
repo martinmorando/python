@@ -1,3 +1,7 @@
+'''
+    Strings
+'''
+
 # Concatenation
 a = "Hello"
 b = "Goodbye"

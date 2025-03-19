@@ -1,6 +1,9 @@
 '''
     Tuples
+    - inmutable: can't be changed, can't add or remove elements
+    - think of fixed collections of items
 '''
+
 t = ("apple", "banana", "orange")
 
 # Access 2nd item
