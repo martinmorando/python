@@ -1,4 +1,4 @@
-# Experiments and notes with Python 3
+# Notes, Code, and Experiments with Python 3
 
 ## Quick Overview
 - Created in 1991
@@ -17,6 +17,7 @@
 - Data Analysis
 	- CSV Handling
 	- Matplotlib
+    - NumPy
 	- Pandas
 - Web Scraping
 	- BeautifulSoup
