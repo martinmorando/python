@@ -2,24 +2,15 @@
     Basics
 '''
 
-# Single line comment
+# This is a single-line comment
 
 '''
-    Multi-line comment
+    This is a multi-line comment
 '''
-
-# [DECLARE AND INITIATE VARIABLES]
-# - String
-name = "Clark Kent"
-# - Integer
-n = 1
-# - Boolean
-b = True
-
 
 # [OUTPUT]
 # - Output a single element to the console
-print(name)         # "Clark Kent"
+print("Clark Kent")         # Output: Clark Kent
 
 # - Output multiple elements to the console
-print(name, n)      # "Clark Kent" 1
+print("Clark Kent", 1)      # Output: Clark Kent 1
