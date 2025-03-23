@@ -14,3 +14,6 @@ print("Clark Kent")         # Output: Clark Kent
 
 # - Output multiple elements to the console
 print("Clark Kent", 1)      # Output: Clark Kent 1
+
+# - Single quotes are also valid
+print('Clark Kent', 1)      # Output: Clark Kent 1
