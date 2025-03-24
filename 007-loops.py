@@ -22,3 +22,10 @@ for n in numbers:
     if (n == 5):
         continue    # 5 won't get printed
     print(n)
+
+
+# While 
+i = 1
+while (i <= 10):
+    print(i)
+    i += 1
