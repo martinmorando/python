@@ -2,37 +2,47 @@
     Functions
 '''
 
-def sum(x,y):
+# [BASIC FUNCTION]: with 2 parameters
+def addition(x,y):
 	return x + y
-print(sum(1,2))
+
+# Print the call to the function
+print(addition(1,2))            # Output: 3
 
 
-# Lambda functions (AKA anonymous functions)
-sum_b = lambda x, y: x + y
-print(sum_b(1,2)) 
 
-numbers = range(100) 
+# [FUNCTION WITH A DEFAULT PARAMETER & 2 MULTIPLE RETURN VALUES]
+def sumAndProduct(x, y=9):
+    return x + y, x * y
 
-# map(function, iterable)
-# Advantage: memory efficient because it returns an iterator (instead of fully creating it in the memory)
-# Example: multiply by 1.5 each element in numbers list
-numbers_multiply = map(lambda x: x*1.5, numbers) 
-print(list(numbers_multiply)) 
+print(sumAndProduct(2, 3))      # Output: (5, 6)
+print(sumAndProduct(2))         # Output: (11, 18)
 
-# filter(function, iterable)
-# Example: filter numbers list: only saved even numbers
-even_numbers = filter(lambda x: x % 2 == 0, numbers)
-print(list(even_numbers))
+# Save the multiple returned values in variables
+addition, product = sumAndProduct(5, 6)
+print(addition)                 # Output: 11
+print(product)                  # Output: 30
 
-# sorted(iterable, key)
-# Example: order members list by second element of each tuple
-members = [("A", 10), ("B", 1)]
-sorted_members = sorted(members, key=lambda x: x[1])
-print(list(sorted_members))
 
-# reduce(function, iterable). Important: import needed
-# Example: sum all elements in a list
-from functools import reduce
-another_list = [1, 2, 3]
-z = reduce(lambda x, y: x + y, another_list)
-print(z)
+
+# [KEYWORD ARGUMENTS]
+def colors(a, b):
+    print("a:", a, "b:", b)
+    return "KEEP GOING"
+
+colors(1, 2)                    # Output: a: 1 b: 2
+colors(2, 1)                    # Output: a: 2 b: 1
+
+# Keyword arguments: arguments are passed using their names
+colors(b=2, a=1)                # Output: a: 1 b: 2
+
+
+
+# [SCOPE: GLOBAL VS LOCAL]
+testVar = "global"              # Global variable
+def checkScope():
+    testVar = "local"           # Local variable, can't be used outside function
+    print(testVar)
+
+print(testVar)                  # Output: global
+checkScope()                    # Output: local
