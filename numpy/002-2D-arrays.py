@@ -1,5 +1,5 @@
 '''
-    Two-dimensional arrays
+    2D arrays
     - They have 2 axes:
         - Axis 0: values that are in the same column ("same indexical position")
         - Axis 1: values that are in the same row ("share an array")
