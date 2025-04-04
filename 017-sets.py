@@ -13,6 +13,10 @@ print(lettersA)              # Output: {'B', 'C', 'A', 'D'}
 lettersB = set(["A", "B", "C", "D", "D"])
 print(lettersB)              # Output: {'A', 'C', 'B', 'D'}
 
+# - Create a frozen set (inmutable)
+frozenB = frozenset(lettersB)
+print(frozenB)               # Output: frozenset({'C', 'D', 'A', 'B'})
+
 
 
 # [ADD]
